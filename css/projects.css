@@ -39,52 +39,53 @@ div h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 5%;
-}
-
-.about-info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-info p {
-    width: 30%;
-    margin-right: 4%;
-    font-size: 24px;
-    text-align: center;
-}
-
-div img {
-    width: 269px;
-    margin-left: 4%;
-}
-
-.coding {
-    border-bottom: 1px solid black;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-bottom: 5%;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 24px;
+    margin-right: 6%;
 }
 
-.li-1 {
-    margin-left: 29%;
+.box {
+    width: 269px;
+    height: 476px;
+    margin-left: 6%;
+    margin-bottom: 4%;
 }
 
-.li-2 {
-    margin-right: 31%;
+.img-container {
+    width: 269px;
+    height: 238px;
 }
 
-.li-1 ul li {
-    list-style: none;
-    line-height: 2;
+.img-container img {
+    width: 100%;
+    height: 100%;
 }
 
-.li-2 ul li {
-    list-style: none;
-    line-height: 2;
+.box h3 {
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+}
+
+.box button {
+    width: 152px;
+    height: 43px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 21%;
+    background-color: #111E6C;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+.box button:hover {
+    cursor: pointer;
 }
