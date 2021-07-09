@@ -34,3 +34,111 @@ nav ul li a:hover {
 .current {
     color: #11FF9B
 }
+
+div h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form {
+    width: 932px;
+    height: 433px;
+    border: 6px solid #111E6C;
+    border-radius: 32px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    max-width: 50%;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side h2 {
+    width: 327px;
+}
+
+.left-side h2 span {
+    color: #11FF9B;
+}
+
+.left-side #fname {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    width: 30%;
+    margin-right: 8%;
+}
+
+.left-side #lname {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    width: 30%;
+}
+
+.left-side #email {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    margin-top: 6%;
+    width: 71%;
+}
+
+.left-side #text {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    margin-top: 6%;
+    width: 71%;
+}
+
+.left-side #button {
+    width: 152px;
+    height: 36px;
+    background-color: #111E6C;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 6%;
+}
+
+.vl {
+    height: 433px;
+    border-left: 3px solid #111E6C;
+    margin-left: -4%;
+}
+
+.links {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.links h2 {
+    width: 327px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20%;
+}
+
+.links p {
+    font-size: 24px;
+    text-align: center;
+}
