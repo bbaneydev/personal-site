@@ -53,3 +53,34 @@ div img {
     width: 269px;
     margin-left: 4%;
 }
+
+.coding {
+    border-bottom: 1px solid black;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.li-1 {
+    margin-left: 29%;
+}
+
+.li-2 {
+    margin-right: 32%;
+}
+
+.li-1 ul li {
+    list-style: none;
+    line-height: 2;
+}
+
+.li-2 ul li {
+    list-style: none;
+    line-height: 2;
+}
